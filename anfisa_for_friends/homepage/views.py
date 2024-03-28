@@ -1,7 +1,7 @@
 from django.db.models import Q
 from django.shortcuts import render
 
-from ice_cream.models import IceCream
+from ice_cream.models import Category, IceCream
 
 
 def index(request):
